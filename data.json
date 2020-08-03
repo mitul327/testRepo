@@ -1,0 +1,5042 @@
+{
+   "instances":[
+      {
+         "id":"EPU_B",
+         "name":"EPU B",
+         "typeid":"EPU",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_B"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "display-index":{
+               "value":"2",
+               "groups":[
+                  "display-config"
+               ]
+            },
+            "Input Voltage":{
+               "value":"EPU_B_Input_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display",
+                  "tag-electrical-display-overview"
+               ]
+            }
+         }
+      },
+      {
+         "id":"EPU_A",
+         "name":"EPU A",
+         "typeid":"EPU",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_A"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "display-index":{
+               "value":"1",
+               "groups":[
+                  "display-config"
+               ]
+            },
+            "Input Voltage":{
+               "value":"EPU_A_Input_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            }
+         }
+      },
+      {
+         "id":"PCDM_B",
+         "name":"PCDM B",
+         "typeid":"PCDM",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "PCDM_B"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Physical"
+                  ],
+                  [
+                     "Physical",
+                     "Physical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "display-index":{
+               "value":"2",
+               "groups":[
+                  "display-config"
+               ]
+            },
+            "Output 6":{
+               "value":"PCDM_B_Output_6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 8":{
+               "value":"PCDM_B_Output_8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 4":{
+               "value":"PCDM_B_Output_Voltage 4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 8":{
+               "value":"PCDM_B_Output_Voltage 8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "leakage_capacitance":{
+               "value":"PCDM_B_leakage_capacitance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 8":{
+               "value":"PCDM_B_Output_Current 8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 9":{
+               "value":"PCDM_B_Output_9",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display",
+                  "tag-electrical-display-overview"
+               ]
+            },
+            "Severity":{
+               "value":"PCDM_B_Severity",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Insulation Resistance":{
+               "value":"PCDM_B_Insulation_Resistance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 10":{
+               "value":"PCDM_B_Output_10",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "IR":{
+               "value":"PCDM_B_IR",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 6":{
+               "value":"PCDM_B_Output_Current 6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Current":{
+               "value":"PCDM_B_Input_Current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 1":{
+               "value":"PCDM_B_Output_Voltage 1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "LEAKAGE_CAPACITANCE":{
+               "value":"PCDM_B_LEAKAGE_CAPACITANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 6":{
+               "value":"PCDM_B_Output_Voltage 6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 5":{
+               "value":"PCDM_B_Output_Current 5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "IR Rate of Change":{
+               "value":"PCDM_B_IR_Rate of Change",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 12":{
+               "value":"PCDM_B_Output_12",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 2":{
+               "value":"PCDM_B_Output_Current 2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 3":{
+               "value":"PCDM_B_Output_3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 16":{
+               "value":"PCDM_B_Output_16",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "INSULATION_RESISTANCE":{
+               "value":"PCDM_B_INSULATION_RESISTANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 14":{
+               "value":"PCDM_B_Output_14",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "TOPSIDE_VOLTAGES":{
+               "value":"PCDM_B_TOPSIDE_VOLTAGES",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 3":{
+               "value":"PCDM_B_Output_Current 3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 13":{
+               "value":"PCDM_B_Output_13",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 15":{
+               "value":"PCDM_B_Output_15",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Supply Current":{
+               "value":"PCDM_B_Supply_Current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 5":{
+               "value":"PCDM_B_Output_5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 1":{
+               "value":"PCDM_B_Output_Current 1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 5":{
+               "value":"PCDM_B_Output_Voltage 5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "output_voltage":{
+               "value":"PCDM_B_output_voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 7":{
+               "value":"PCDM_B_Output_Current 7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Status":{
+               "value":"PCDM_B_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Voltage":{
+               "value":"PCDM_B_Input_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 7":{
+               "value":"PCDM_B_Output_7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 4":{
+               "value":"PCDM_B_Output_4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 4":{
+               "value":"PCDM_B_Output_Current 4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 2":{
+               "value":"PCDM_B_Output_Voltage 2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "output_current":{
+               "value":"PCDM_B_output_current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 11":{
+               "value":"PCDM_B_Output_11",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Cable V Loss diff to Analysis":{
+               "value":"PCDM_B_Cable_V Loss diff to Analysis",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "insulation_resistance":{
+               "value":"PCDM_B_insulation_resistance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 1":{
+               "value":"PCDM_B_Output_1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 7":{
+               "value":"PCDM_B_Output_Voltage 7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 3":{
+               "value":"PCDM_B_Output_Voltage 3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Supply Voltage":{
+               "value":"PCDM_B_Supply_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 2":{
+               "value":"PCDM_B_Output_2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "insulation_resistance_forecast_status":{
+               "value":"PCDM_B_insulation_resistance_forecast_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 9":{
+               "value":"PCDM_B_Output_Voltage 9",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "cl_forecast_status":{
+               "value":"PCDM_B_cl_forecast_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 12":{
+               "value":"PCDM_B_Output_Voltage 12",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 14":{
+               "value":"PCDM_B_Output_Voltage 14",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 10":{
+               "value":"PCDM_B_Output_Voltage 10",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "status":{
+               "value":"PCDM_B_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 11":{
+               "value":"PCDM_B_Output_Voltage 11",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 13":{
+               "value":"PCDM_B_Output_Voltage 13",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 15":{
+               "value":"PCDM_B_Output_Voltage 15",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 16":{
+               "value":"PCDM_B_Output_Voltage 16",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            }
+         }
+      },
+      {
+         "id":"PCDM_A",
+         "name":"PCDM A",
+         "typeid":"PCDM",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "PCDM_A"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Physical"
+                  ],
+                  [
+                     "Physical",
+                     "Physical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Output Voltage 1":{
+               "value":"PCDM_A_Output_Voltage 1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"1",
+               "groups":[
+                  "display-config"
+               ]
+            },
+            "Output Current 7":{
+               "value":"PCDM_A_Output_Current 7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 2":{
+               "value":"PCDM_A_Output_Voltage 2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Supply Voltage":{
+               "value":"PCDM_A_Supply_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 4":{
+               "value":"PCDM_A_Output_Current 4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Voltage":{
+               "value":"PCDM_A_Input_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 6":{
+               "value":"PCDM_A_Output_Current 6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 5":{
+               "value":"PCDM_A_Output_Voltage 5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Status":{
+               "value":"PCDM_A_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Severity":{
+               "value":"PCDM_A_Severity",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 2":{
+               "value":"PCDM_A_Output_2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Insulation Resistance":{
+               "value":"PCDM_A_Insulation_Resistance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 5":{
+               "value":"PCDM_A_Output_5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Supply Current":{
+               "value":"PCDM_A_Supply_Current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "IR Rate of Change":{
+               "value":"PCDM_A_IR_Rate of Change",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 8":{
+               "value":"PCDM_A_Output_Current 8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "LEAKAGE_CAPACITANCE":{
+               "value":"PCDM_A_LEAKAGE_CAPACITANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 8":{
+               "value":"PCDM_A_Output_8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 10":{
+               "value":"PCDM_A_Output_10",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 16":{
+               "value":"PCDM_A_Output_16",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 4":{
+               "value":"PCDM_A_Output_4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 2":{
+               "value":"PCDM_A_Output_Current 2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 6":{
+               "value":"PCDM_A_Output_Voltage 6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 1":{
+               "value":"PCDM_A_Output_1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 11":{
+               "value":"PCDM_A_Output_11",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Current":{
+               "value":"PCDM_A_Input_Current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "INSULATION_RESISTANCE":{
+               "value":"PCDM_A_INSULATION_RESISTANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 8":{
+               "value":"PCDM_A_Output_Voltage 8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 6":{
+               "value":"PCDM_A_Output_6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 3":{
+               "value":"PCDM_A_Output_Current 3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "output_voltage":{
+               "value":"PCDM_A_output_voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "insulation_resistance":{
+               "value":"PCDM_A_insulation_resistance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 3":{
+               "value":"PCDM_A_Output_Voltage 3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 1":{
+               "value":"PCDM_A_Output_Current 1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 15":{
+               "value":"PCDM_A_Output_15",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 5":{
+               "value":"PCDM_A_Output_Current 5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 14":{
+               "value":"PCDM_A_Output_14",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "TOPSIDE_VOLTAGES":{
+               "value":"PCDM_A_TOPSIDE_VOLTAGES",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 7":{
+               "value":"PCDM_A_Output_7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 4":{
+               "value":"PCDM_A_Output_Voltage 4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 7":{
+               "value":"PCDM_A_Output_Voltage 7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "IR":{
+               "value":"PCDM_A_IR",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "output_current":{
+               "value":"PCDM_A_output_current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 9":{
+               "value":"PCDM_A_Output_9",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 13":{
+               "value":"PCDM_A_Output_13",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 3":{
+               "value":"PCDM_A_Output_3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Cable V Loss diff to Analysis":{
+               "value":"PCDM_A_Cable_V Loss diff to Analysis",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output 12":{
+               "value":"PCDM_A_Output_12",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 12":{
+               "value":"PCDM_A_Output_Voltage 12",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 11":{
+               "value":"PCDM_A_Output_Voltage 11",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 14":{
+               "value":"PCDM_A_Output_Voltage 14",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 13":{
+               "value":"PCDM_A_Output_Voltage 13",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "leakage_capacitance":{
+               "value":"PCDM_A_leakage_capacitance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 9":{
+               "value":"PCDM_A_Output_Voltage 9",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "cl_forecast_status":{
+               "value":"PCDM_A_cl_forecast_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 10":{
+               "value":"PCDM_A_Output_Voltage 10",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "status":{
+               "value":"PCDM_A_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 15":{
+               "value":"PCDM_A_Output_Voltage 15",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 16":{
+               "value":"PCDM_A_Output_Voltage 16",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "insulation_resistance_forecast_status":{
+               "value":"PCDM_A_insulation_resistance_forecast_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            }
+         }
+      },
+      {
+         "id":"GM-02_SEM_B",
+         "name":"GM-02 SEM B",
+         "typeid":"SEM",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_B",
+                  "EPU_B_CH2",
+                  "PCDM_B_CH2",
+                  "GM-02_SEM_B"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Supply Current":{
+               "value":"GM-02_SEM_B_Supply_Current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Cable V Loss diff to Analysis":{
+               "value":"GM-02_SEM_B_Cable_V Loss diff to Analysis",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Voltage":{
+               "value":"GM-02_SEM_B_Input_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Current":{
+               "value":"GM-02_SEM_B_Input_Current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 6":{
+               "value":"GM-02_SEM_B_Output_Voltage 6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Supply Voltage":{
+               "value":"GM-02_SEM_B_Supply_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "LEAKAGE_CAPACITANCE":{
+               "value":"GM-02_SEM_B_LEAKAGE_CAPACITANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 5":{
+               "value":"GM-02_SEM_B_Output_Current 5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 4":{
+               "value":"GM-02_SEM_B_Output_Voltage 4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 7":{
+               "value":"GM-02_SEM_B_Output_Voltage 7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 8":{
+               "value":"GM-02_SEM_B_Output_Voltage 8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 6":{
+               "value":"GM-02_SEM_B_Output_Current 6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Volatage":{
+               "value":"GM-02_SEM_B_Input_Volatage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 5":{
+               "value":"GM-02_SEM_B_Output_Voltage 5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 3":{
+               "value":"GM-02_SEM_B_Output_Voltage 3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 1":{
+               "value":"GM-02_SEM_B_Output_Current 1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 3":{
+               "value":"GM-02_SEM_B_Output_Current 3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "insulation_resistance":{
+               "value":"GM-02_SEM_B_insulation_resistance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "insulation_resistance_forecast_status":{
+               "value":"GM-02_SEM_B_insulation_resistance_forecast_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "leakage_capacitance":{
+               "value":"GM-02_SEM_B_leakage_capacitance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "cl_forecast_status":{
+               "value":"GM-02_SEM_B_cl_forecast_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Status":{
+               "value":"GM-02_SEM_B_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 2":{
+               "value":"GM-02_SEM_B_Output_Voltage 2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "TOPSIDE_VOLTAGES":{
+               "value":"GM-02_SEM_B_TOPSIDE_VOLTAGES",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 4":{
+               "value":"GM-02_SEM_B_Output_Current 4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "IR":{
+               "value":"GM-02_SEM_B_IR",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "INSULATION_RESISTANCE":{
+               "value":"GM-02_SEM_B_INSULATION_RESISTANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 1":{
+               "value":"GM-02_SEM_B_Output_Voltage 1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 7":{
+               "value":"GM-02_SEM_B_Output_Current 7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 8":{
+               "value":"GM-02_SEM_B_Output_Current 8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "IR Rate of Change":{
+               "value":"GM-02_SEM_B_IR_Rate of Change",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 2":{
+               "value":"GM-02_SEM_B_Output_Current 2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "output_current":{
+               "value":"GM-02_SEM_B_output_current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Severity":{
+               "value":"GM-02_SEM_B_Severity",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "output_voltage":{
+               "value":"GM-02_SEM_B_output_voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "status":{
+               "value":"GM-02_SEM_B_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"50",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"GM-02_SEM_A",
+         "name":"GM-02 SEM A",
+         "typeid":"SEM",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_A",
+                  "EPU_A_CH2",
+                  "PCDM_A_CH2",
+                  "GM-02_SEM_A"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "cl_forecast_status":{
+               "value":"GM-02_SEM_A_cl_forecast_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "insulation_resistance_forecast_status":{
+               "value":"GM-02_SEM_A_insulation_resistance_forecast_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "leakage_capacitance":{
+               "value":"GM-02_SEM_A_leakage_capacitance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Current":{
+               "value":"GM-02_SEM_A_Input_Current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Voltage":{
+               "value":"GM-02_SEM_A_Input_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Supply Voltage":{
+               "value":"GM-02_SEM_A_Supply_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 8":{
+               "value":"GM-02_SEM_A_Output_Voltage 8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Supply Current":{
+               "value":"GM-02_SEM_A_Supply_Current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 7":{
+               "value":"GM-02_SEM_A_Output_Voltage 7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 6":{
+               "value":"GM-02_SEM_A_Output_Voltage 6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "INSULATION_RESISTANCE":{
+               "value":"GM-02_SEM_A_INSULATION_RESISTANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 4":{
+               "value":"GM-02_SEM_A_Output_Voltage 4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 1":{
+               "value":"GM-02_SEM_A_Output_Voltage 1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Cable V Loss diff to Analysis":{
+               "value":"GM-02_SEM_A_Cable_V Loss diff to Analysis",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 2":{
+               "value":"GM-02_SEM_A_Output_Current 2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 1":{
+               "value":"GM-02_SEM_A_Output_Current 1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Status":{
+               "value":"GM-02_SEM_A_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 2":{
+               "value":"GM-02_SEM_A_Output_Voltage 2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 5":{
+               "value":"GM-02_SEM_A_Output_Current 5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "LEAKAGE_CAPACITANCE":{
+               "value":"GM-02_SEM_A_LEAKAGE_CAPACITANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "TOPSIDE_VOLTAGES":{
+               "value":"GM-02_SEM_A_TOPSIDE_VOLTAGES",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 4":{
+               "value":"GM-02_SEM_A_Output_Current 4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 3":{
+               "value":"GM-02_SEM_A_Output_Voltage 3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Volatage":{
+               "value":"GM-02_SEM_A_Input_Volatage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "IR":{
+               "value":"GM-02_SEM_A_IR",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 6":{
+               "value":"GM-02_SEM_A_Output_Current 6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 3":{
+               "value":"GM-02_SEM_A_Output_Current 3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "IR Rate of Change":{
+               "value":"GM-02_SEM_A_IR_Rate of Change",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 7":{
+               "value":"GM-02_SEM_A_Output_Current 7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 5":{
+               "value":"GM-02_SEM_A_Output_Voltage 5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "status":{
+               "value":"GM-02_SEM_A_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 8":{
+               "value":"GM-02_SEM_A_Output_Current 8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "insulation_resistance":{
+               "value":"GM-02_SEM_A_insulation_resistance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "output_voltage":{
+               "value":"GM-02_SEM_A_output_voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "output_current":{
+               "value":"GM-02_SEM_A_output_current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Severity":{
+               "value":"GM-02_SEM_A_Severity",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"60",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"U3B_SEM_B",
+         "name":"U3B SEM B",
+         "typeid":"SEM",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_B",
+                  "EPU_B_CH1",
+                  "PCDM_B_CH1",
+                  "U3B_SEM_B"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Supply Current":{
+               "value":"U3B_SEM_B_Supply_Current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 5":{
+               "value":"U3B_SEM_B_Output_Current 5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "TOPSIDE_VOLTAGES":{
+               "value":"U3B_SEM_B_TOPSIDE_VOLTAGES",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 4":{
+               "value":"U3B_SEM_B_Output_Current 4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 7":{
+               "value":"U3B_SEM_B_Output_Current 7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Voltage":{
+               "value":"U3B_SEM_B_Input_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Current":{
+               "value":"U3B_SEM_B_Input_Current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Cable V Loss diff to Analysis":{
+               "value":"U3B_SEM_B_Cable_V Loss diff to Analysis",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 6":{
+               "value":"U3B_SEM_B_Output_Voltage 6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Supply Voltage":{
+               "value":"U3B_SEM_B_Supply_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "LEAKAGE_CAPACITANCE":{
+               "value":"U3B_SEM_B_LEAKAGE_CAPACITANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 2":{
+               "value":"U3B_SEM_B_Output_Voltage 2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 1":{
+               "value":"U3B_SEM_B_Output_Voltage 1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 1":{
+               "value":"U3B_SEM_B_Output_Current 1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Severity":{
+               "value":"U3B_SEM_B_Severity",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "output_current":{
+               "value":"U3B_SEM_B_output_current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "output_voltage":{
+               "value":"U3B_SEM_B_output_voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 6":{
+               "value":"U3B_SEM_B_Output_Current 6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 8":{
+               "value":"U3B_SEM_B_Output_Voltage 8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 4":{
+               "value":"U3B_SEM_B_Output_Voltage 4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Status":{
+               "value":"U3B_SEM_B_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 7":{
+               "value":"U3B_SEM_B_Output_Voltage 7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "IR":{
+               "value":"U3B_SEM_B_IR",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 3":{
+               "value":"U3B_SEM_B_Output_Voltage 3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Volatage":{
+               "value":"U3B_SEM_B_Input_Volatage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 8":{
+               "value":"U3B_SEM_B_Output_Current 8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 5":{
+               "value":"U3B_SEM_B_Output_Voltage 5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "INSULATION_RESISTANCE":{
+               "value":"U3B_SEM_B_INSULATION_RESISTANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "IR Rate of Change":{
+               "value":"U3B_SEM_B_IR_Rate of Change",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 3":{
+               "value":"U3B_SEM_B_Output_Current 3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 2":{
+               "value":"U3B_SEM_B_Output_Current 2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "insulation_resistance":{
+               "value":"U3B_SEM_B_insulation_resistance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "leakage_capacitance":{
+               "value":"U3B_SEM_B_leakage_capacitance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "cl_forecast_status":{
+               "value":"U3B_SEM_B_cl_forecast_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "insulation_resistance_forecast_status":{
+               "value":"U3B_SEM_B_insulation_resistance_forecast_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "status":{
+               "value":"U3B_SEM_B_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"70",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"U3B_SEM_A",
+         "name":"U3B SEM A",
+         "typeid":"SEM",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_A",
+                  "EPU_A_CH1",
+                  "PCDM_A_CH1",
+                  "U3B_SEM_A"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Supply Current":{
+               "value":"U3B_SEM_A_Supply_Current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "output_voltage":{
+               "value":"U3B_SEM_A_output_voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "status":{
+               "value":"U3B_SEM_A_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 8":{
+               "value":"U3B_SEM_A_Output_Voltage 8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 5":{
+               "value":"U3B_SEM_A_Output_Current 5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "TOPSIDE_VOLTAGES":{
+               "value":"U3B_SEM_A_TOPSIDE_VOLTAGES",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "IR Rate of Change":{
+               "value":"U3B_SEM_A_IR_Rate of Change",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 3":{
+               "value":"U3B_SEM_A_Output_Current 3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "output_current":{
+               "value":"U3B_SEM_A_output_current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "insulation_resistance_forecast_status":{
+               "value":"U3B_SEM_A_insulation_resistance_forecast_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Severity":{
+               "value":"U3B_SEM_A_Severity",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "cl_forecast_status":{
+               "value":"U3B_SEM_A_cl_forecast_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Status":{
+               "value":"U3B_SEM_A_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 6":{
+               "value":"U3B_SEM_A_Output_Current 6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 4":{
+               "value":"U3B_SEM_A_Output_Current 4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 8":{
+               "value":"U3B_SEM_A_Output_Current 8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 7":{
+               "value":"U3B_SEM_A_Output_Current 7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 1":{
+               "value":"U3B_SEM_A_Output_Current 1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 2":{
+               "value":"U3B_SEM_A_Output_Current 2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Volatage":{
+               "value":"U3B_SEM_A_Input_Volatage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 4":{
+               "value":"U3B_SEM_A_Output_Voltage 4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "INSULATION_RESISTANCE":{
+               "value":"U3B_SEM_A_INSULATION_RESISTANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 3":{
+               "value":"U3B_SEM_A_Output_Voltage 3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "IR":{
+               "value":"U3B_SEM_A_IR",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 1":{
+               "value":"U3B_SEM_A_Output_Voltage 1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 5":{
+               "value":"U3B_SEM_A_Output_Voltage 5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "insulation_resistance":{
+               "value":"U3B_SEM_A_insulation_resistance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "leakage_capacitance":{
+               "value":"U3B_SEM_A_leakage_capacitance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Current":{
+               "value":"U3B_SEM_A_Input_Current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Cable V Loss diff to Analysis":{
+               "value":"U3B_SEM_A_Cable_V Loss diff to Analysis",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Voltage":{
+               "value":"U3B_SEM_A_Input_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Supply Voltage":{
+               "value":"U3B_SEM_A_Supply_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 7":{
+               "value":"U3B_SEM_A_Output_Voltage 7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 2":{
+               "value":"U3B_SEM_A_Output_Voltage 2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 6":{
+               "value":"U3B_SEM_A_Output_Voltage 6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "LEAKAGE_CAPACITANCE":{
+               "value":"U3B_SEM_A_LEAKAGE_CAPACITANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"80",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"U1B_SEM_B",
+         "name":"U1B SEM B",
+         "typeid":"SEM",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_B",
+                  "EPU_B_CH1",
+                  "PCDM_B_CH1",
+                  "U1B_SEM_B"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Supply Voltage":{
+               "value":"U1B_SEM_B_Supply_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Current":{
+               "value":"U1B_SEM_B_Input_Current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 8":{
+               "value":"U1B_SEM_B_Output_Voltage 8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 2":{
+               "value":"U1B_SEM_B_Output_Voltage 2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Cable V Loss diff to Analysis":{
+               "value":"U1B_SEM_B_Cable_V Loss diff to Analysis",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 6":{
+               "value":"U1B_SEM_B_Output_Voltage 6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 5":{
+               "value":"U1B_SEM_B_Output_Current 5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "LEAKAGE_CAPACITANCE":{
+               "value":"U1B_SEM_B_LEAKAGE_CAPACITANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Supply Current":{
+               "value":"U1B_SEM_B_Supply_Current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 6":{
+               "value":"U1B_SEM_B_Output_Current 6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Status":{
+               "value":"U1B_SEM_B_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 4":{
+               "value":"U1B_SEM_B_Output_Current 4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 7":{
+               "value":"U1B_SEM_B_Output_Voltage 7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 4":{
+               "value":"U1B_SEM_B_Output_Voltage 4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "IR":{
+               "value":"U1B_SEM_B_IR",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Voltage":{
+               "value":"U1B_SEM_B_Input_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "INSULATION_RESISTANCE":{
+               "value":"U1B_SEM_B_INSULATION_RESISTANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 2":{
+               "value":"U1B_SEM_B_Output_Current 2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "output_voltage":{
+               "value":"U1B_SEM_B_output_voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "insulation_resistance_forecast_status":{
+               "value":"U1B_SEM_B_insulation_resistance_forecast_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "IR Rate of Change":{
+               "value":"U1B_SEM_B_IR_Rate of Change",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "TOPSIDE_VOLTAGES":{
+               "value":"U1B_SEM_B_TOPSIDE_VOLTAGES",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Volatage":{
+               "value":"U1B_SEM_B_Input_Volatage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 8":{
+               "value":"U1B_SEM_B_Output_Current 8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 3":{
+               "value":"U1B_SEM_B_Output_Voltage 3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 5":{
+               "value":"U1B_SEM_B_Output_Voltage 5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 1":{
+               "value":"U1B_SEM_B_Output_Voltage 1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 7":{
+               "value":"U1B_SEM_B_Output_Current 7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 1":{
+               "value":"U1B_SEM_B_Output_Current 1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "output_current":{
+               "value":"U1B_SEM_B_output_current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Severity":{
+               "value":"U1B_SEM_B_Severity",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "insulation_resistance":{
+               "value":"U1B_SEM_B_insulation_resistance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 3":{
+               "value":"U1B_SEM_B_Output_Current 3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "status":{
+               "value":"U1B_SEM_B_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "cl_forecast_status":{
+               "value":"U1B_SEM_B_cl_forecast_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "leakage_capacitance":{
+               "value":"U1B_SEM_B_leakage_capacitance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"90",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"U1B_SEM_A",
+         "name":"U1B SEM A",
+         "typeid":"SEM",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_A",
+                  "EPU_A_CH1",
+                  "PCDM_A_CH1",
+                  "U1B_SEM_A"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "INSULATION_RESISTANCE":{
+               "value":"U1B_SEM_A_INSULATION_RESISTANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "IR":{
+               "value":"U1B_SEM_A_IR",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 6":{
+               "value":"U1B_SEM_A_Output_Current 6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 3":{
+               "value":"U1B_SEM_A_Output_Voltage 3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Volatage":{
+               "value":"U1B_SEM_A_Input_Volatage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 1":{
+               "value":"U1B_SEM_A_Output_Voltage 1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 7":{
+               "value":"U1B_SEM_A_Output_Current 7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 8":{
+               "value":"U1B_SEM_A_Output_Current 8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 5":{
+               "value":"U1B_SEM_A_Output_Voltage 5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 2":{
+               "value":"U1B_SEM_A_Output_Current 2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "output_current":{
+               "value":"U1B_SEM_A_output_current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Severity":{
+               "value":"U1B_SEM_A_Severity",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "output_voltage":{
+               "value":"U1B_SEM_A_output_voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "insulation_resistance":{
+               "value":"U1B_SEM_A_insulation_resistance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "leakage_capacitance":{
+               "value":"U1B_SEM_A_leakage_capacitance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 3":{
+               "value":"U1B_SEM_A_Output_Current 3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 1":{
+               "value":"U1B_SEM_A_Output_Current 1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "IR Rate of Change":{
+               "value":"U1B_SEM_A_IR_Rate of Change",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "cl_forecast_status":{
+               "value":"U1B_SEM_A_cl_forecast_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "status":{
+               "value":"U1B_SEM_A_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "insulation_resistance_forecast_status":{
+               "value":"U1B_SEM_A_insulation_resistance_forecast_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Cable V Loss diff to Analysis":{
+               "value":"U1B_SEM_A_Cable_V Loss diff to Analysis",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 8":{
+               "value":"U1B_SEM_A_Output_Voltage 8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 6":{
+               "value":"U1B_SEM_A_Output_Voltage 6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 2":{
+               "value":"U1B_SEM_A_Output_Voltage 2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Current":{
+               "value":"U1B_SEM_A_Input_Current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Supply Voltage":{
+               "value":"U1B_SEM_A_Supply_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Voltage":{
+               "value":"U1B_SEM_A_Input_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "LEAKAGE_CAPACITANCE":{
+               "value":"U1B_SEM_A_LEAKAGE_CAPACITANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 5":{
+               "value":"U1B_SEM_A_Output_Current 5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Supply Current":{
+               "value":"U1B_SEM_A_Supply_Current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 7":{
+               "value":"U1B_SEM_A_Output_Voltage 7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Status":{
+               "value":"U1B_SEM_A_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 4":{
+               "value":"U1B_SEM_A_Output_Voltage 4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 4":{
+               "value":"U1B_SEM_A_Output_Current 4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "TOPSIDE_VOLTAGES":{
+               "value":"U1B_SEM_A_TOPSIDE_VOLTAGES",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"100",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"U1A_Shift_SEM_B",
+         "name":"U1A Shift SEM B",
+         "typeid":"SEM",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_B",
+                  "EPU_B_CH2",
+                  "PCDM_B_CH2",
+                  "U1A_Shift_SEM_B"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "status":{
+               "value":"U1A_Shift_SEM_B_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Supply Current":{
+               "value":"U1A_Shift_SEM_B_Supply_Current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Voltage":{
+               "value":"U1A_Shift_SEM_B_Input_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 6":{
+               "value":"U1A_Shift_SEM_B_Output_Voltage 6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Current":{
+               "value":"U1A_Shift_SEM_B_Input_Current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Supply Voltage":{
+               "value":"U1A_Shift_SEM_B_Supply_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "LEAKAGE_CAPACITANCE":{
+               "value":"U1A_Shift_SEM_B_LEAKAGE_CAPACITANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 5":{
+               "value":"U1A_Shift_SEM_B_Output_Current 5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Cable V Loss diff to Analysis":{
+               "value":"U1A_Shift_SEM_B_Cable_V Loss diff to Analysis",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 6":{
+               "value":"U1A_Shift_SEM_B_Output_Current 6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 4":{
+               "value":"U1A_Shift_SEM_B_Output_Voltage 4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 8":{
+               "value":"U1A_Shift_SEM_B_Output_Voltage 8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Status":{
+               "value":"U1A_Shift_SEM_B_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 2":{
+               "value":"U1A_Shift_SEM_B_Output_Voltage 2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 4":{
+               "value":"U1A_Shift_SEM_B_Output_Current 4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "TOPSIDE_VOLTAGES":{
+               "value":"U1A_Shift_SEM_B_TOPSIDE_VOLTAGES",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 3":{
+               "value":"U1A_Shift_SEM_B_Output_Voltage 3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "IR":{
+               "value":"U1A_Shift_SEM_B_IR",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "IR Rate of Change":{
+               "value":"U1A_Shift_SEM_B_IR_Rate of Change",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Severity":{
+               "value":"U1A_Shift_SEM_B_Severity",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "insulation_resistance":{
+               "value":"U1A_Shift_SEM_B_insulation_resistance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 2":{
+               "value":"U1A_Shift_SEM_B_Output_Current 2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 3":{
+               "value":"U1A_Shift_SEM_B_Output_Current 3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 7":{
+               "value":"U1A_Shift_SEM_B_Output_Voltage 7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 1":{
+               "value":"U1A_Shift_SEM_B_Output_Voltage 1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 5":{
+               "value":"U1A_Shift_SEM_B_Output_Voltage 5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Volatage":{
+               "value":"U1A_Shift_SEM_B_Input_Volatage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 7":{
+               "value":"U1A_Shift_SEM_B_Output_Current 7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 8":{
+               "value":"U1A_Shift_SEM_B_Output_Current 8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "INSULATION_RESISTANCE":{
+               "value":"U1A_Shift_SEM_B_INSULATION_RESISTANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "output_current":{
+               "value":"U1A_Shift_SEM_B_output_current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "output_voltage":{
+               "value":"U1A_Shift_SEM_B_output_voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 1":{
+               "value":"U1A_Shift_SEM_B_Output_Current 1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "leakage_capacitance":{
+               "value":"U1A_Shift_SEM_B_leakage_capacitance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "insulation_resistance_forecast_status":{
+               "value":"U1A_Shift_SEM_B_insulation_resistance_forecast_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "cl_forecast_status":{
+               "value":"U1A_Shift_SEM_B_cl_forecast_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"110",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"U1A_Shift_SEM_A",
+         "name":"U1A Shift SEM A",
+         "typeid":"SEM",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_A",
+                  "EPU_A_CH2",
+                  "PCDM_A_CH2",
+                  "U1A_Shift_SEM_A"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Cable V Loss diff to Analysis":{
+               "value":"U1A_Shift_SEM_A_Cable_V Loss diff to Analysis",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 3":{
+               "value":"U1A_Shift_SEM_A_Output_Voltage 3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 4":{
+               "value":"U1A_Shift_SEM_A_Output_Voltage 4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "IR":{
+               "value":"U1A_Shift_SEM_A_IR",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 6":{
+               "value":"U1A_Shift_SEM_A_Output_Current 6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "TOPSIDE_VOLTAGES":{
+               "value":"U1A_Shift_SEM_A_TOPSIDE_VOLTAGES",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "IR Rate of Change":{
+               "value":"U1A_Shift_SEM_A_IR_Rate of Change",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 1":{
+               "value":"U1A_Shift_SEM_A_Output_Voltage 1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 7":{
+               "value":"U1A_Shift_SEM_A_Output_Current 7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 3":{
+               "value":"U1A_Shift_SEM_A_Output_Current 3",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 5":{
+               "value":"U1A_Shift_SEM_A_Output_Voltage 5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 2":{
+               "value":"U1A_Shift_SEM_A_Output_Current 2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 8":{
+               "value":"U1A_Shift_SEM_A_Output_Current 8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "LEAKAGE_CAPACITANCE":{
+               "value":"U1A_Shift_SEM_A_LEAKAGE_CAPACITANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 7":{
+               "value":"U1A_Shift_SEM_A_Output_Voltage 7",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 6":{
+               "value":"U1A_Shift_SEM_A_Output_Voltage 6",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Supply Current":{
+               "value":"U1A_Shift_SEM_A_Supply_Current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 2":{
+               "value":"U1A_Shift_SEM_A_Output_Voltage 2",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Voltage 8":{
+               "value":"U1A_Shift_SEM_A_Output_Voltage 8",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Status":{
+               "value":"U1A_Shift_SEM_A_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 5":{
+               "value":"U1A_Shift_SEM_A_Output_Current 5",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "INSULATION_RESISTANCE":{
+               "value":"U1A_Shift_SEM_A_INSULATION_RESISTANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 4":{
+               "value":"U1A_Shift_SEM_A_Output_Current 4",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Output Current 1":{
+               "value":"U1A_Shift_SEM_A_Output_Current 1",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "insulation_resistance_forecast_status":{
+               "value":"U1A_Shift_SEM_A_insulation_resistance_forecast_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "status":{
+               "value":"U1A_Shift_SEM_A_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Volatage":{
+               "value":"U1A_Shift_SEM_A_Input_Volatage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Severity":{
+               "value":"U1A_Shift_SEM_A_Severity",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "output_voltage":{
+               "value":"U1A_Shift_SEM_A_output_voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "insulation_resistance":{
+               "value":"U1A_Shift_SEM_A_insulation_resistance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "cl_forecast_status":{
+               "value":"U1A_Shift_SEM_A_cl_forecast_status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "output_current":{
+               "value":"U1A_Shift_SEM_A_output_current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "leakage_capacitance":{
+               "value":"U1A_Shift_SEM_A_leakage_capacitance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Voltage":{
+               "value":"U1A_Shift_SEM_A_Input_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Input Current":{
+               "value":"U1A_Shift_SEM_A_Input_Current",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Supply Voltage":{
+               "value":"U1A_Shift_SEM_A_Supply_Voltage",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"120",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"PCDM_B_CH2",
+         "name":"PCDM B CH2",
+         "typeid":"PCDM-Channel",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_B",
+                  "EPU_B_CH2",
+                  "PCDM_B_CH2"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Insulation Resistance":{
+               "value":"PCDM_B_CH2_Insulation_Resistance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"130",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"PCDM_B_CH1",
+         "name":"PCDM B CH1",
+         "typeid":"PCDM-Channel",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_B",
+                  "EPU_B_CH1",
+                  "PCDM_B_CH1"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Insulation Resistance":{
+               "value":"PCDM_B_CH1_Insulation_Resistance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"140",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"PCDM_A_CH2",
+         "name":"PCDM A CH2",
+         "typeid":"PCDM-Channel",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_A",
+                  "EPU_A_CH2",
+                  "PCDM_A_CH2"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Insulation Resistance":{
+               "value":"PCDM_A_CH2_Insulation_Resistance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"150",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"PCDM_A_CH1",
+         "name":"PCDM A CH1",
+         "typeid":"PCDM-Channel",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_A",
+                  "EPU_A_CH1",
+                  "PCDM_A_CH1"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Insulation Resistance":{
+               "value":"PCDM_A_CH1_Insulation_Resistance",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"160",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"EPU_B_CH2",
+         "name":"EPU B CH2",
+         "typeid":"EPU-EPCM-Channel",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_B",
+                  "EPU_B_CH2"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "filterParam":{
+               "value":"Channel-B",
+               "groups":[
+                  "display-config"
+               ]
+            },
+            "TOPSIDE_VOLTAGES":{
+               "value":"EPU_B_CH2_TOPSIDE_VOLTAGES",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "INSULATION_RESISTANCE":{
+               "value":"EPU_B_CH2_INSULATION_RESISTANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "LEAKAGE_CAPACITANCE":{
+               "value":"EPU_B_CH2_LEAKAGE_CAPACITANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Channel":{
+               "value":"Channel-B",
+               "groups":[
+                  "display-config"
+               ]
+            },
+            "display-index":{
+               "value":"170",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"EPU_B_CH1",
+         "name":"EPU B CH1",
+         "typeid":"EPU-EPCM-Channel",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_B",
+                  "EPU_B_CH1"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "filterParam":{
+               "value":"Channel-A",
+               "groups":[
+                  "display-config"
+               ]
+            },
+            "INSULATION_RESISTANCE":{
+               "value":"EPU_B_CH1_INSULATION_RESISTANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Channel":{
+               "value":"Channel-A",
+               "groups":[
+                  "display-config"
+               ]
+            },
+            "TOPSIDE_VOLTAGES":{
+               "value":"EPU_B_CH1_TOPSIDE_VOLTAGES",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "LEAKAGE_CAPACITANCE":{
+               "value":"EPU_B_CH1_LEAKAGE_CAPACITANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"180",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"EPU_A_CH2",
+         "name":"EPU A CH2",
+         "typeid":"EPU-EPCM-Channel",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_A",
+                  "EPU_A_CH2"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "filterParam":{
+               "value":"Channel-B",
+               "groups":[
+                  "display-config"
+               ]
+            },
+            "TOPSIDE_VOLTAGES":{
+               "value":"EPU_A_CH2_TOPSIDE_VOLTAGES",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "LEAKAGE_CAPACITANCE":{
+               "value":"EPU_A_CH2_LEAKAGE_CAPACITANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "INSULATION_RESISTANCE":{
+               "value":"EPU_A_CH2_INSULATION_RESISTANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Channel":{
+               "value":"Channel-B",
+               "groups":[
+                  "display-config"
+               ]
+            },
+            "display-index":{
+               "value":"190",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"EPU_A_CH1",
+         "name":"EPU A CH1",
+         "typeid":"EPU-EPCM-Channel",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_A",
+                  "EPU_A_CH1"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "LEAKAGE_CAPACITANCE":{
+               "value":"EPU_A_CH1_LEAKAGE_CAPACITANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "Channel":{
+               "value":"Channel-A",
+               "groups":[
+                  "display-config"
+               ]
+            },
+            "TOPSIDE_VOLTAGES":{
+               "value":"EPU_A_CH1_TOPSIDE_VOLTAGES",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "filterParam":{
+               "value":"Channel-A",
+               "groups":[
+                  "display-config"
+               ]
+            },
+            "INSULATION_RESISTANCE":{
+               "value":"EPU_A_CH1_INSULATION_RESISTANCE",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"200",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"SCM-PCDM_Data_7",
+         "name":"SCM-PCDM Data",
+         "typeid":"SEM-INFO",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_B",
+                  "EPU_B_CH2",
+                  "PCDM_B_CH2",
+                  "GM-02_SEM_B",
+                  "SCM-PCDM_Data_7"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Status":{
+               "value":"SCM-PCDM_Data_7_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"210",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"SCM-PCDM_Data_6",
+         "name":"SCM-PCDM Data",
+         "typeid":"SEM-INFO",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_A",
+                  "EPU_A_CH2",
+                  "PCDM_A_CH2",
+                  "GM-02_SEM_A",
+                  "SCM-PCDM_Data_6"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Status":{
+               "value":"SCM-PCDM_Data_6_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"220",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"SCM-PCDM_Data_5",
+         "name":"SCM-PCDM Data",
+         "typeid":"SEM-INFO",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_B",
+                  "EPU_B_CH1",
+                  "PCDM_B_CH1",
+                  "U3B_SEM_B",
+                  "SCM-PCDM_Data_5"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Status":{
+               "value":"SCM-PCDM_Data_5_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"230",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"SCM-PCDM_Data_4",
+         "name":"SCM-PCDM Data",
+         "typeid":"SEM-INFO",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_A",
+                  "EPU_A_CH1",
+                  "PCDM_A_CH1",
+                  "U3B_SEM_A",
+                  "SCM-PCDM_Data_4"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Status":{
+               "value":"SCM-PCDM_Data_4_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"240",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"SCM-PCDM_Data_3",
+         "name":"SCM-PCDM Data",
+         "typeid":"SEM-INFO",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_B",
+                  "EPU_B_CH1",
+                  "PCDM_B_CH1",
+                  "U1B_SEM_B",
+                  "SCM-PCDM_Data_3"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Status":{
+               "value":"SCM-PCDM_Data_3_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"250",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"SCM-PCDM_Data_2",
+         "name":"SCM-PCDM Data",
+         "typeid":"SEM-INFO",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_A",
+                  "EPU_A_CH1",
+                  "PCDM_A_CH1",
+                  "U1B_SEM_A",
+                  "SCM-PCDM_Data_2"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Status":{
+               "value":"SCM-PCDM_Data_2_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"260",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"SCM-PCDM_Data_1",
+         "name":"SCM-PCDM Data",
+         "typeid":"SEM-INFO",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_B",
+                  "EPU_B_CH2",
+                  "PCDM_B_CH2",
+                  "U1A_Shift_SEM_B",
+                  "SCM-PCDM_Data_1"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Status":{
+               "value":"SCM-PCDM_Data_1_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"270",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"SCM-PCDM_Data_0",
+         "name":"SCM-PCDM Data",
+         "typeid":"SEM-INFO",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_A",
+                  "EPU_A_CH2",
+                  "PCDM_A_CH2",
+                  "U1A_Shift_SEM_A",
+                  "SCM-PCDM_Data_0"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Status":{
+               "value":"SCM-PCDM_Data_0_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"280",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"PSU_Data_7",
+         "name":"PSU Data",
+         "typeid":"SEM-INFO",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_B",
+                  "EPU_B_CH2",
+                  "PCDM_B_CH2",
+                  "GM-02_SEM_B",
+                  "PSU_Data_7"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Status":{
+               "value":"PSU_Data_7_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"290",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"PSU_Data_6",
+         "name":"PSU Data",
+         "typeid":"SEM-INFO",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_A",
+                  "EPU_A_CH2",
+                  "PCDM_A_CH2",
+                  "GM-02_SEM_A",
+                  "PSU_Data_6"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Status":{
+               "value":"PSU_Data_6_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"300",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"PSU_Data_5",
+         "name":"PSU Data",
+         "typeid":"SEM-INFO",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_B",
+                  "EPU_B_CH1",
+                  "PCDM_B_CH1",
+                  "U3B_SEM_B",
+                  "PSU_Data_5"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Status":{
+               "value":"PSU_Data_5_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"310",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"PSU_Data_4",
+         "name":"PSU Data",
+         "typeid":"SEM-INFO",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_A",
+                  "EPU_A_CH1",
+                  "PCDM_A_CH1",
+                  "U3B_SEM_A",
+                  "PSU_Data_4"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Status":{
+               "value":"PSU_Data_4_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"320",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"PSU_Data_3",
+         "name":"PSU Data",
+         "typeid":"SEM-INFO",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_B",
+                  "EPU_B_CH1",
+                  "PCDM_B_CH1",
+                  "U1B_SEM_B",
+                  "PSU_Data_3"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Status":{
+               "value":"PSU_Data_3_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"330",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"PSU_Data_2",
+         "name":"PSU Data",
+         "typeid":"SEM-INFO",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_A",
+                  "EPU_A_CH1",
+                  "PCDM_A_CH1",
+                  "U1B_SEM_A",
+                  "PSU_Data_2"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Status":{
+               "value":"PSU_Data_2_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"7",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"PSU_Data_1",
+         "name":"PSU Data",
+         "typeid":"SEM-INFO",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_B",
+                  "EPU_B_CH2",
+                  "PCDM_B_CH2",
+                  "U1A_Shift_SEM_B",
+                  "PSU_Data_1"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Status":{
+               "value":"PSU_Data_1_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"5",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      },
+      {
+         "id":"PSU_Data_0",
+         "name":"PSU Data",
+         "typeid":"SEM-INFO",
+         "paths":[
+            {
+               "path":[
+                  "Customer-1",
+                  "Field-1",
+                  "EPU_A",
+                  "EPU_A_CH2",
+                  "PCDM_A_CH2",
+                  "U1A_Shift_SEM_A",
+                  "PSU_Data_0"
+               ],
+               "linktypepath":[
+                  [
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ],
+                  [
+                     "Physical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical",
+                     "Electrical"
+                  ]
+               ]
+            }
+         ],
+         "attributes":{
+            "Status":{
+               "value":"PSU_Data_0_Status",
+               "groups":[
+                  "tag",
+                  "tag-electrical",
+                  "tag-electrical-display"
+               ]
+            },
+            "display-index":{
+               "value":"360",
+               "groups":[
+                  "display-config"
+               ]
+            }
+         }
+      }
+   ]
+}
